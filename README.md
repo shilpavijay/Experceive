@@ -18,7 +18,7 @@ Viz1: Expenditure by each category:
 Road-Map
 ------------
 
- - [ ] Category-wise expenditure - a Visual Representation
+ - [x] Category-wise expenditure - a Visual Representation
  - [ ] Comparison with the initial Forecast/Budget
  - [ ] Drill down into each Category to a granular level
  
@@ -26,4 +26,4 @@ Road-Map
  --------
 
  - [x] Category-wise seggregation
- - [ ] Meaningful labels to the pie chart. Aligning required.
+ - [x] Meaningful labels to the pie chart. Aligning required.

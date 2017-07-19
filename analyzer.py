@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 def csvAnalze(file):
 	dfinit = pd.read_csv(file)
 	dfcat = dfinit.groupby('Category').sum()
-	dfcat.plot(kind='pie', subplots='True')
 	labels = ['Grocery', 'Food', 'Others', 'Phone Exp', 'Travel Exp']
-	plt.legend(labels)
+	dfcat.plot(kind='pie', subplots='True', autopct='%1.1f%%', 
+		labels=labels, shadow=True, startangle=90)
 	return dfcat
 
 
