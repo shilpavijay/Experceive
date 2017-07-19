@@ -1,11 +1,13 @@
 import pandas as pd
+import numpy as np
 import logging
 import matplotlib.pyplot as plt
 
 
-def csvAnalze(exp,budget):
+def Analysis(exp,budget):
 	dfinit = pd.read_csv(exp)
 	dfcat = dfinit.groupby('Category').sum()
+	logging.info(dfcat)
 	labels = ['Grocery', 'Food', 'Others', 'Phone Exp', 'Transport']
 	explode = (0, 0.05, 0, 0, 0)
 	colors = ['#b64b50', '#f46e6e', '#f69a9a', '#4dc9ba', '#afd2e7']
@@ -18,15 +20,19 @@ def csvAnalze(exp,budget):
 
 	# plt.title('Experceive', bbox={'facecolor' : '0.9', 'pad' : 3})
 
+
 	# Comaparing with the Forecast Sheet
 	dfbudget = pd.read_csv(budget)	
+	
+	N = 5
+	# forecast = ()
 	return dfbudget.head()
 
 
 if __name__ == "__main__":
 	logging.basicConfig(filename='analyzerlog.log', filemode='w', 
 						level=logging.DEBUG)
-	logging.info('Started')
-	budget = csvAnalze('JulyExp.csv','JulyForecast.csv')
+	logging.info('Experceive')
+	budget = Analysis('JulyExp.csv','JulyForecast.csv')
 	logging.debug(budget)
-	plt.show()
+	# plt.show()
