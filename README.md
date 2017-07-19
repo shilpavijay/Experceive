@@ -26,4 +26,4 @@ Road-Map
  --------
 
  - [x] Category-wise seggregation
- - [ ] Meaningful labels to the pie chart
+ - [ ] Meaningful labels to the pie chart. Aligning required.
