@@ -19,7 +19,7 @@ Road-Map
 ------------
 
  - [x] Category-wise expenditure - a Visual Representation
- - [ ] Comparison with the initial Forecast/Budget
+ - [x] Comparison with the initial Forecast/Budget
  - [ ] Drill down into each Category to a granular level
  
  To-do
