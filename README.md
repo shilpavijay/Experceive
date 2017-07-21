@@ -15,12 +15,15 @@ Viz1: Expenditure by each category:
 ![Viz1](/Figure_1.png)
 
 
+Viz2: Comparison with Forecast:
+
+![Viz2](/Figure_2.png)
+
 Road-Map
 ------------
 
  - [x] Category-wise expenditure - a Visual Representation
  - [x] Comparison with the initial Forecast/Budget
- - [ ] Drill down into each Category to a granular level
  
  To-do
  --------

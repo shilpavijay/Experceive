@@ -60,7 +60,7 @@ def Analysis(exp,budget):
 	#actual values from exp.csv
 	actual_val = [dfcat.Amount[0], dfcat.Amount[3], dfcat.Amount[4], dfcat.Amount[1], dfcat.Amount[2]]				
 	actual_std = (2, 5, 2, 3, 3)  
-	actuals = ax.bar(loc + width, actual_val, width, color='#2b6944', yerr=actual_std)
+	actuals = ax.bar(loc + width + 0.02, actual_val, width, color='#2b6944', yerr=actual_std)
 
 	#text for the labels, title and axes ticks
 	ax.set_ylabel('Amount')
