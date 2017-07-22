@@ -19,14 +19,27 @@ Viz2: Comparison with Forecast:
 
 ![Viz2](/Figure_2.png)
 
+
+Requirements:
+--------------------
+- Python 3.5
+- Matplotlib
+- Pandas
+- Numpy 
+
 Road-Map
 ------------
 
  - [x] Category-wise expenditure - a Visual Representation
  - [x] Comparison with the initial Forecast/Budget
+ - [ ] Obtain Excel sheet parameters from command line
+ - [ ] Capability to analyze multiple sheet i.e. expenses over 6 months/1 year
  
  To-do
  --------
 
  - [x] Category-wise seggregation
- - [x] Meaningful labels to the pie chart. Aligning required.
+ - [x] Meaningful labels to the charts. 
+ - [ ] Categorize the expenses sheet to get a more granular approach.
+ - [ ] Improvise the matplotlib charts.
+ - [ ] Refine the README file - requirements, explanation, each category description.
