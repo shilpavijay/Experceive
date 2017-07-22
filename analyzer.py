@@ -39,6 +39,7 @@ def Analysis(exp,budget):
 
 	# plt.title('Experceive', bbox={'facecolor' : '0.9', 'pad' : 3})
 
+
 	# VIZ2:
 	# Comaparing with the Forecast Sheet
 	dfbudget = pd.read_csv(budget)	
@@ -73,6 +74,8 @@ def Analysis(exp,budget):
 
 	ax.legend((forecast[0], actuals[0]), ('Forecast', 'Actuals'))
 
+	plt.subplots_adjust(left=0.11, bottom=0.06, right=0.97, top=0.94, 
+						wspace=0.2, hspace=0.2)
 
 	def autolabel(rects):
 		"""
@@ -80,7 +83,7 @@ def Analysis(exp,budget):
 		"""
 		for rect in rects:
 			height = rect.get_height()
-			ax.text(rect.get_x() + rect.get_width()/2., 1*height,
+			ax.text(rect.get_x() + rect.get_width()/1.85, 1*height,
 					'%d' % int(height),
 					ha='center', va='bottom')
 

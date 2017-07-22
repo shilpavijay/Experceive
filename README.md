@@ -41,5 +41,5 @@ Road-Map
  - [x] Category-wise seggregation
  - [x] Meaningful labels to the charts. 
  - [x] Categorize the expenses sheet to get a more granular approach.
- - [ ] Improvise the matplotlib charts.
+ - [x] Improvise the matplotlib charts.
  - [ ] Refine the README file - requirements, explanation, each category description.
