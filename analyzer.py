@@ -90,6 +90,8 @@ if __name__ == "__main__":
 	logging.basicConfig(filename='analyzerlog.log', filemode='w', 
 						level=logging.DEBUG)
 	logging.info('Experceive')
-	budget = Analysis('JulyExp.csv','JulyForecast.csv')
+	expsheet = raw_input('Expense sheet: ')
+	forecast = raw_input('Forecast sheet: ')
+	budget = Analysis(expsheet, forecast)
 	logging.debug(budget)
 	plt.show()

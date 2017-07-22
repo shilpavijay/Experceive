@@ -22,7 +22,7 @@ Viz2: Comparison with Forecast:
 
 Requirements:
 --------------------
-- Python 3.5
+- Python 2.7
 - Matplotlib
 - Pandas
 - Numpy 
@@ -32,7 +32,7 @@ Road-Map
 
  - [x] Category-wise expenditure - a Visual Representation
  - [x] Comparison with the initial Forecast/Budget
- - [ ] Obtain Excel sheet parameters from command line
+ - [x] Obtain Excel sheet parameters from command line
  - [ ] Capability to analyze multiple sheet i.e. expenses over 6 months/1 year
  
  To-do
