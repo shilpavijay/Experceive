@@ -10,24 +10,26 @@ Certain categories have been indroduced as an additional column in the sheet in 
 Visuals
 ---------------
 Viz1: Expenditure by each category:
+
 This Visual provides a pictoral representation of Percentage spent on each Category.
 
 ![Viz1](/Figure_1.png)
 
 
 Viz2: Comparison with Forecast:
+
 The Forecast sheet created during the start of the month is compared with the Actual expenses. It can help the user understand the discrepancy and thus forecast better for the next month.
 
 ![Viz2](/Figure_2.png)
 
 
-A Few Conclusion that can be arrived at:
+Conclusions:
 ------------------------------------------
 
 1. Amount spent: Bills > Food > Misc > Grocery.
 2. Expenditure on Food > Allocated Budget.
 3. Good Savings: Transport, Bills, Grocery. 
-4. Over-spent: Food, Misc expenses
+4. Over-Spending: Food, Misc expenses
 
 
 Requirements:
